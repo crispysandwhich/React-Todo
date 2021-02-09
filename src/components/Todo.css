@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: dodgerblue;
+    color:aliceblue;
+}
+
+/* APP */
+.app{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* todoApp */
+.todoApp{
+    border: black 5px solid;
+    width: 550px;
+    height: 720px;
+    border-radius: 10%;
+    background-color: lightsteelblue;
+}
+.todoApp_title{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.todoList{
+    list-style-type: none;
+    background-color: crimson;
+    width: 100%;
+}
+.todoList li {
+    padding: 10px;
+}
+
+.deForm{
+    width: 100%;
+    padding: 1rem;
+}
+.deForm input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gold;
+}
+.deForm button{
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+}
